@@ -1,0 +1,20 @@
+# ユーザー作業データ
+escode-app/workspace/
+
+# ビルド成果物
+escode-app/dist/
+escode-app/dist-ssr/
+
+# TypeScriptビルドキャッシュ
+escode-app/tsconfig.app.tsbuildinfo
+escode-app/tsconfig.node.tsbuildinfo
+
+# 依存関係
+escode-app/node_modules/
+
+# ログ
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store

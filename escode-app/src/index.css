@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* VS Code Dark+ カラートークン */
+  --vsc-bg:              #1e1e1e;
+  --vsc-sidebar-bg:      #252526;
+  --vsc-activitybar-bg:  #333333;
+  --vsc-editor-bg:       #1e1e1e;
+  --vsc-titlebar-bg:     #3c3c3c;
+  --vsc-statusbar-bg:    #007acc;
+  --vsc-statusbar-text:  #ffffff;
+  --vsc-panel-bg:        #1e1e1e;
+
+  --vsc-accent:          #007acc;
+  --vsc-accent-hover:    #1a8ad4;
+  --vsc-selection:       #094771;
+  --vsc-focus-border:    #007acc;
+
+  --vsc-text-primary:    #cccccc;
+  --vsc-text-dim:        #858585;
+  --vsc-text-bright:     #ffffff;
+  --vsc-text-link:       #4ec9b0;
+
+  --vsc-border:          #3c3c3c;
+  --vsc-border-panel:    #252526;
+
+  --vsc-tab-active-bg:      #1e1e1e;
+  --vsc-tab-active-border:  #007acc;
+  --vsc-tab-inactive-bg:    #2d2d2d;
+  --vsc-tab-inactive-text:  #969696;
+
+  --vsc-list-hover:       #2a2d2e;
+  --vsc-list-active:      #04395e;
+  --vsc-list-active-text: #ffffff;
+  --vsc-list-inactive-active: #37373d;
+
+  --vsc-badge-bg:   #4d4d4d;
+  --vsc-badge-text: #cccccc;
+
+  --vsc-font-ui:   'Inter', 'Segoe UI', system-ui, sans-serif;
+  --vsc-font-mono: 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--vsc-font-ui);
+  font-size: 13px;
+  color: var(--vsc-text-primary);
+  background: var(--vsc-bg);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+button:focus-visible {
+  outline: 1px solid var(--vsc-focus-border);
+  outline-offset: -1px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #424242;
+  border-radius: 0;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #686868;
+  background-clip: content-box;
+  border: 2px solid transparent;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
