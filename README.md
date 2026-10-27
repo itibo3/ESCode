@@ -2,10 +2,26 @@
 
 **TypeScript をなぞって学ぶ、IDE ライクなコード学習エディタ**
 
+*Trace-to-learn TypeScript editor — type over ghost templates, read per-line explanations, and run your code live.*
+
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
 [![Monaco Editor](https://img.shields.io/badge/Monaco_Editor-4.7-0078D4?style=flat-square)](https://microsoft.github.io/monaco-editor/)
+
+## 👀 ひとことで言うと
+
+ESCode は「読む」だけでは身につかない人のための、**打って覚える** TypeScript 学習エディタです。
+
+- 👻 **なぞる**：お手本コードが薄く（ゴースト）表示されるので、その上から1文字ずつ打ち込むだけ
+- 📖 **その場で分かる**：カーソル行の解説が右パネルに出るので、写しながら意味が追える
+- ▶️ **すぐ動く**：書いたコードはライブプレビューでそのまま実行して確認できる
+
+**こんな人におすすめ**
+
+- 動画や本で「読んだだけ」になってしまう人
+- 写経スタイルでコードを体で覚えたい人
+- VSCode ライクな本格的な画面で練習したい人
 
 ---
 
